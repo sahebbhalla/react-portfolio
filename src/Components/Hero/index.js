@@ -16,7 +16,7 @@ const renderChoice =(navName) =>{
 const Hero = ({navName})=>{
 
     return (
-        <section className="Hero">
+        <section className="hero">
            { renderChoice(navName)}
         </section>
     )
