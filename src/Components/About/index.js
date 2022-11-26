@@ -1,13 +1,15 @@
 import React from "react";
+import sample from '../../assets/video/pexels-mikhail-nilov-7534245.mp4'
 import avatar from '../../assets/avatar/img_avatar.png'
 const About =()=>{
 
     return (
         <div className="heroMain">
            <span> <h1>About</h1><img src={avatar} alt="Avatar" className="avatar" /></span>
-           
 
-            <p >Software developer with over 1 year of experience working as a Full Stack software developer for one of the most trusted experiential learning solution provider for post-secondary institutions in Canada.<br/><br/>
+
+
+            <p>Software developer with over 1 year of experience working as a Full Stack software developer for one of the most trusted experiential learning solution provider for post-secondary institutions in Canada.<br/><br/>
 
             Experienced in Software developement, maintianing Software infrastrucutre and working closely with the end user to understand use cases to provide a better experience for students. Experienced in operating and managing different corporate software and operational systems.<br/><br/>
 

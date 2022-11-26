@@ -9,16 +9,16 @@ const Nav = ({navChoice,setNavChoice}) => {
  
         <nav>
           <ul className="flex-row" style={{ color: "white" }}>
-            <li className="mx-2" onClick={() => changeNav("AboutMe")}>
+            <li className={`mx-2 ${navChoice==='AboutMe' && 'navActive'}`} onClick={() => changeNav("AboutMe")}>
               About Me
             </li>
-            <li className="mx-2" onClick={() => changeNav("Portfolio")}>
+            <li className={`mx-2 ${navChoice==='Portfolio' && 'navActive'}`} onClick={() => changeNav("Portfolio")}>
               Portfolio
             </li>
-            <li className="mx-2" onClick={() => changeNav("Contact")}>
+            <li className={`mx-2 ${navChoice==='Contact' && 'navActive'}`} onClick={() => changeNav("Contact")}>
               Contact
             </li>
-            <li className="mx-2" onClick={() => changeNav("Resume")}>
+            <li className={`mx-2 ${navChoice==='Resume' && 'navActive'}`}onClick={() => changeNav("Resume")}>
               Resume
             </li>
           </ul>

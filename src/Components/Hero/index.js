@@ -2,6 +2,7 @@ import React  from "react";
 import About from "../About";
 import Contact from "../Contact";
 import Portfolio from "../Portfolio";
+import Resume from "../Resume";
 const renderChoice =(navName) =>{
     switch(navName){
         case "AboutMe":
@@ -9,7 +10,11 @@ const renderChoice =(navName) =>{
         case "Portfolio":
             return <Portfolio />
         case "Contact":
-            return <Contact />    
+            return <Contact />
+        case "Resume":
+            return <Resume />    
+        default:
+        return <About />
     }
 
 }
